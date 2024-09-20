@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>HighTide Graphic Tees</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="container-fluid">
+        <ul>
+            <li><strong>HighTide Graphic Tees</strong></li>
+        </ul>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content -->
+    <main class="container">
+        <div class="grid">
+            <section>
+                <hgroup>
+                    <h2>Surf, Freedom & Coastal Vibes</h2>
+                    <h3>Discover Your Passion</h3>
+                </hgroup>
+                <p>Welcome to HighTide, where the ocean breeze meets stylish freedom. Our graphic tees are inspired by the beauty of the sea, surf, and endless adventure. Join us as we embrace the carefree spirit of beach life.</p>
+                
+                <!-- Image -->
+                <figure>
+                    <img src="IMAGE_URL_HERE" alt="Coastal Vibes Graphic">
+                    <figcaption><a href="#" target="_blank">Explore Our Designs</a></figcaption>
+                </figure>
+                
+                <h3>Our Mission</h3>
+                <p>We aim to bring the spirit of the sea and freedom to every wardrobe. Designed for those who live to surf, fish, and explore coastal beauty, HighTide tees are made for everyone chasing the waves.</p>
+                
+                <h3>Why Choose Us?</h3>
+                <p>Each tee is crafted with premium quality and sustainable materials, ensuring you not only look great but feel good about your choice.</p>
+            </section>
+        </div>
+    </main>
+
+    <!-- Subscription Section -->
+    <section aria-label="Subscribe example">
+        <div class="container">
+            <article>
+                <hgroup>
+                    <h2>Stay Updated</h2>
+                    <h3>Subscribe for updates and special offers</h3>
+                </hgroup>
+                <form class="grid">
+                    <input type="text" id="firstname" name="firstname" placeholder="First Name" aria-label="First Name" required>
+                    <input type="email" id="email" name="email" placeholder="Email Address" aria-label="Email Address" required>
+                    <button type="submit" onclick="event.preventDefault()">Subscribe</button>
+                </form>
+            </article>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container">
+        <small><a href="#">Privacy Policy</a> • <a href="#">Terms of Service</a></small>
+    </footer>
+</body>
+</html>
